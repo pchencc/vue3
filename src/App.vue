@@ -1,15 +1,27 @@
 <template>
   <div class="box">
-    {{ str }}
+  <h1>
+    1
+  </h1>
+
   </div>
 </template>
 
 <script setup lang="ts">
-const str = 'www'
+
+
+
+
+
+
+
 </script>
 
 <style scoped lang="scss">
 .box {
   height: 60px;
+}
+h1{
+  color:$color
 }
 </style>
